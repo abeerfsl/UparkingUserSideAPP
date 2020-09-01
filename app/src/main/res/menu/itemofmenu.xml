@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/home"
+        android:title="الصفحة الرئيسية"
+        app:showAsAction="always"
+        />
+
+    <item android:title="تعديل بياناتي"
+
+        android:id="@+id/EditProfile"/>
+
+    <item android:title="حجوزاتي"
+
+        android:id="@+id/BookingHistory"/>
+
+
+    <item android:title="احصائياتً"
+
+        android:id="@+id/parkingReservation"/>
+
+    <item android:title="تسجيل الخروج"
+
+        android:id="@+id/logout"/>
+
+
+</menu>

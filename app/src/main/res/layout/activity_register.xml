@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="59dp"
+                android:text="إنشاء حساب"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/user"
+                android:hint="  اسم المستخدم  "
+                android:background="@drawable/custom_edittext"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:inputType="text"
+                android:textColor="@color/white"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/phone"
+                android:background="@drawable/custom_edittext"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:hint="  رقم الجوال  "
+                android:textSize="16dp"
+                android:inputType="phone"
+                android:layout_marginBottom="20dp"/>
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/lock"
+                android:background="@drawable/custom_edittext"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:hint="كلمة المرور "
+                android:textSize="16dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_marginBottom="20dp"/>
+
+
+
+            <EditText
+                android:id="@+id/c_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/lock"
+                android:background="@drawable/custom_edittext"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:hint="اعادة كلمة المرور "
+                android:textSize="16dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:layout_marginBottom="20dp"/>
+
+
+
+            <CheckBox
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:text="الشروط والاحكام"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="التسجيل "
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
